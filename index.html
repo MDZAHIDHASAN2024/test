@@ -3,11 +3,302 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MD. ZAHID HASAN</title>
 
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Fira+Sans&family=Montserrat&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css for mobile -->
     <link rel="stylesheet" href="style.css" />
-    <title>Test</title>
+
+    <!-- css for desktop -->
+    <link
+      rel="stylesheet"
+      href="desktop.css"
+      media="screen and (min-width:992px)"
+    />
   </head>
   <body>
-    <h1>This is  heading two</h1>
+    <!-- navbar starts from here -->
+    <div class="navbar">
+      <div class="navbar-logo col-2">
+        <img class="logo-img" src="zahid.jpg" alt="logo" />
+      </div>
+      <div class="navbar-heading col-4">
+        <h1>MD. ZAHID HASAN</h1>
+      </div>
+      <div class="navbar-menu col-6">
+        <a href="#">Home</a>
+        <a href="#about-me-id">About Me</a>
+        <a href="#professional-experience-id">Skills</a>
+        <a href="#achievement-contract-id">Contract</a>
+      </div>
+    </div>
+    <!-- navbar end here -->
+
+    <!-- profile starts from here -->
+
+    <div class="profile">
+      <img class="top-weather-icon" src="weather.png" alt="top weather icon" />
+      <div class="profile-desc">
+        <h1>Assalamualaikum!</h1>
+        <h1>I am a Junior Web Developer</h1>
+        <p><br />My name is MD. ZAHID HASAN. Welcome to My Personal Page.</p>
+        <img
+          class="bottom-weather-icon"
+          src="weather.png"
+          alt="bottom weather icon"
+        />
+      </div>
+    </div>
+
+    <!-- profile ends here -->
+
+    <!-- about-me starts from here -->
+
+    <div class="about-me" id="about-me-id">
+      <h2>ABOUT ME</h2>
+      <hr class="dotted-hr" />
+      <div class="aboutme-image col-6">
+        <img src="Profile.jpg" alt="profile image" />
+      </div>
+      <div class="aboutme-desc col-6">
+        <p>I like to Web Developing.</p>
+        <hr class="aboutme-hr" />
+        <p>Name: MD. ZAHID HASAN</p>
+        <hr class="aboutme-hr" />
+        <p>Address: Beragram, Saghata, Gaibandha, Bangladesh.</p>
+        <hr class="aboutme-hr" />
+        <p>
+          Email:
+          <a href="mailto:zahidhasan2024sumi@gmail.com"
+            >zahidhasan2024sumi@gmail.com</a
+          >
+        </p>
+        <hr class="aboutme-hr" />
+        <p>Phone: <a href="#">01745-940065</a></p>
+        <hr class="aboutme-hr" />
+        <p>Website: <a href="#" target="_blank"></a></p>
+        <hr class="aboutme-hr" />
+
+        <p>
+          <a href="#"
+            ><button class="cv-btn" target="_blank" download="">
+              Download CV
+            </button></a
+          >
+        </p>
+      </div>
+    </div>
+
+    <!-- about-me ends here -->
+
+    <!-- professional-experience starts from here -->
+
+    <div class="professional-experience" id="professional-experience-id">
+      <div class="work-experience col-4">
+        <div class="card">
+          <div class="card-icon">
+            <img class="rounded-img" src="work.png" alt="work-image-icon" />
+          </div>
+          <div class="card-title">
+            <h2>WORK EXPERIENCE</h2>
+          </div>
+          <div class="card-desc">
+            <ol>
+              <li>
+                <strong>Shellter housing limited. </strong><br />
+                01/12/2015-28/1/2029 <br />
+                Gulshan, Dhaka. <br />
+              </li>
+            </ol>
+            <hr />
+            <ol>
+              <li>
+                <strong>Pran-RFL Group. </strong><br />
+                28/1/2029-Running <br />
+                Ghorashal, Palash, Narsindhi, Bangladesh. <br />
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <div class="education col-4">
+        <div class="card">
+          <div class="card-icon">
+            <img
+              class="rounded-img"
+              src="education.png"
+              alt="work-image-icon"
+            />
+          </div>
+          <div class="card-title">
+            <h2>EDUCATION</h2>
+          </div>
+          <div class="card-desc">
+            <ol>
+              <li>
+                <strong>JDC</strong><br />
+                2012-2013 <br />
+                4.06 GPA <br />
+                Kanaipara Dakhil Madrasha. <br />
+              </li>
+            </ol>
+            <hr />
+            <ol>
+              <li>
+                <strong>SSC Science</strong><br />
+                2013-2015<br />
+                4.78 GPA <br />
+                Gobindopur High School.<br />
+              </li>
+            </ol>
+            <hr />
+            <ol>
+              <li>
+                <strong>HSC Science</strong><br />
+                2015-2017<br />
+                3.28 GPA <br />
+                Jumarbari Degree College.<br />
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills col-4">
+        <div class="card">
+          <div class="card-icon">
+            <img class="rounded-img" src="skill.png" alt="work-image-icon" />
+          </div>
+          <div class="card-title">
+            <h2>SKILLS</h2>
+          </div>
+          <div class="card-desc">
+            <div class="skills-container">
+              <ul>
+                <li class="html">HTML</li>
+                <li class="css">CSS</li>
+                <li class="bootstrap">BOOTSTRAP</li>
+                <li class="javascript">JAVASCRIPT</li>
+                <li class="python">PYTHON</li>
+                <li class="jquery">JQUERY</li>
+                <li class="node">NODE.JS</li>
+                <li class="express">EXPRESS.JS</li>
+                <li class="github">GITHUB</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- professional-experience ends here -->
+
+    <!-- achievement-contract starts from here -->
+
+    <div class="achievement-contract" id="achievement-contract-id">
+      <div class="achievement col-4">
+        <h2>ACHIEVEMENTS</h2>
+        <hr class="dotted-hr" />
+        <p>I am a junior web developer.</p>
+
+        <p></p>
+
+        <p></p>
+
+        <p></p>
+      </div>
+
+      <div class="contract col-4">
+        <h2>CONTRACT ME</h2>
+        <hr class="dotted-hr" />
+
+        <form
+          action="mailto:zahidhasan2024sumi@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <p><input type="text" placeholder="Your Name " name="name:" /></p>
+          <p><input type="text" placeholder="Your Email " name="email:" /></p>
+          <textarea
+            name="message:"
+            placeholder="Your Massage Here"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <button type="submit">SEND</button>
+          <button type="reset">RESET</button>
+        </form>
+      </div>
+
+      <div class="contract-link col-4">
+        <h2>More ways to Contract</h2>
+        <hr class="dotted-hr" />
+
+        <div class="media-buttons">
+          <button
+            class="btn"
+            onclick="window.open('http:#')"
+            class="request-callback"
+          >
+            <i class="fa fa-youtube-play" style="color: red"></i>
+          </button>
+
+          <button
+            class="btn"
+            onclick="window.open('https:')"
+            class="request-callback"
+          >
+            <i class="fa fa-facebook-square" style="color: #0866ff"></i>
+          </button>
+
+          <button
+            class="btn"
+            onclick="window.open('http:#')"
+            class="request-callback"
+          >
+            <i class="fa fa-github-square" style="color: #000000"></i>
+
+            <button class="bt spin-btn">
+              <i class="fa fa-cog fa-spin" style="color: red"></i>
+            </button>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- achievement-contract ends here -->
+
+    <!-- footer starts from here -->
+
+    <div class="footer">
+      <div class="footer-menu col-6">
+        <a href="#">Home</a>
+        <a href="#about-me-id">About Me</a>
+        <a href="#professional-experience-id">Skills</a>
+        <a href="#achievement-contract-id">Contract</a>
+      </div>
+
+      <div class="footer-desc col-6">
+        &copy; 2024. Developed by MD. ZAHID HASAN
+      </div>
+    </div>
+
+    <!-- footer ends here -->
   </body>
 </html>
+
