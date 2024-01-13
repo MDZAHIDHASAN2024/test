@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MD. ZAHID HASAN</title>
 
+    <!-- bs5 css cdn link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
     <!-- font awesome cdn -->
     <link
       rel="stylesheet"
@@ -31,35 +39,144 @@
   </head>
   <body>
     <!-- navbar starts from here -->
-    <div class="navbar">
-      <div class="navbar-logo col-2">
-        <img class="logo-img" src="zahid.jpg" alt="logo" />
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <div class="navbar-brand">
+          <img
+            style="width: 50px"
+            class="img-fulid rounded-circle"
+            src="zahid.jpg"
+            alt="logo"
+          />
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="mynavbar">
+          <ul class="navbar-nav list-style-none me-auto">
+            <li class="nav-item p-1 m-1">
+              <a class="nav-link text-decoration-none text-white" href="#slider"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item p-1 m-1">
+              <a
+                class="nav-link text-decoration-none text-white"
+                href="#about-me-id"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item p-1 m-1">
+              <a
+                class="nav-link text-decoration-none text-white"
+                href="#professional-experience-id"
+                >Skills</a
+              >
+            </li>
+            <li class="nav-item p-1 m-1">
+              <a
+                class="nav-link text-decoration-none text-white"
+                href="#achievement-contract-id"
+                >Contract</a
+              >
+            </li>
+          </ul>
+          <form action="" class="d-flex">
+            <input class="form-control" type="text" placeholder="Search..." />
+            <button
+              class="btn btn-light btn-outline-info rounded-circle my-link-style"
+              type="button"
+              style="margin-left: 10px; width: 90px"
+            >
+              <img style="width: 20px" src="search.png" alt="search icon" />
+            </button>
+          </form>
+        </div>
       </div>
-      <div class="navbar-heading col-4">
-        <h1>MD. ZAHID HASAN</h1>
-      </div>
-      <div class="navbar-menu col-6">
-        <a href="#">Home</a>
-        <a href="#about-me-id">About Me</a>
-        <a href="#professional-experience-id">Skills</a>
-        <a href="#achievement-contract-id">Contract</a>
-      </div>
-    </div>
+    </nav>
     <!-- navbar end here -->
 
     <!-- profile starts from here -->
 
-    <div class="profile">
-      <img class="top-weather-icon" src="weather.png" alt="top weather icon" />
-      <div class="profile-desc">
-        <h1>Assalamualaikum!</h1>
-        <h1>I am a Junior Web Developer</h1>
-        <p><br />My name is MD. ZAHID HASAN. Welcome to My Personal Page.</p>
-        <img
-          class="bottom-weather-icon"
-          src="weather.png"
-          alt="bottom weather icon"
-        />
+    <div class="container-fluid p-0 id="slider"">
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="slide1.jpg"
+              alt="Los Angeles"
+              class="d-block"
+              style="width: 100%"
+            />
+            <div class="carousel-caption">
+              <h3>Assalamualaukum</h3>
+              <p>Wellcome to my Personal web page</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="slide2.jpg" class="d-block w-100" />
+            <div class="carousel-caption">
+              <h1></h1>
+              <p></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="slide3.jpg"
+              alt="New York"
+              class="d-block"
+              style="width: 100%"
+            />
+            <div class="carousel-caption">
+              <h3></h3>
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
       </div>
     </div>
 
@@ -118,8 +235,8 @@
           <div class="card-desc">
             <ol>
               <li>
-                <strong>Shellter Housing Limited. </strong><br />
-                01/12/2015-20/1/2019 <br />
+                <strong>Shellter housing limited. </strong><br />
+                01/12/2015-28/1/2029 <br />
                 Gulshan, Dhaka. <br />
               </li>
             </ol>
@@ -127,7 +244,7 @@
             <ol>
               <li>
                 <strong>Pran-RFL Group. </strong><br />
-                28/1/2019-Running <br />
+                28/1/2029-Running <br />
                 Ghorashal, Palash, Narsindhi, Bangladesh. <br />
               </li>
             </ol>
@@ -294,9 +411,20 @@
       </div>
 
       <div class="footer-desc col-6">
-        Copyright &copy; 2024. Developed by MD. ZAHID HASAN
+        &copy; 2024. Developed by MD. ZAHID HASAN
       </div>
     </div>
+
+    <!-- footer ends here -->
+
+    <!-- js cdn link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
 
     <!-- footer ends here -->
   </body>
